@@ -1,48 +1,44 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Container = styled.div`
   background: var(--white);
 
-  box-shadow: 0px 5px 10px 2px rgba(0,0,0,0.31); 
+  box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.31);
   width: 240px;
   min-height: 240px;
 
   border-radius: 10px;
 
   margin: 10px;
-`
+`;
 
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
   padding: 1.563em 1.563em 1.763em 1.563em;
-
-
-`
+`;
 
 export const HeaderContainer = styled.header`
   display: flex;
   flex-direction: row;
 
   justify-content: space-between;
-  button { 
+  button {
     border: none;
-
   }
-`
+`;
 export const TitleContainer = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: flex-start;
+
+  img {
+    width: 54px;
+    height: 34px;
     align-self: flex-start;
-
-    img {
-      width: 54px;
-      height: 34px;
-      align-self: flex-start;
-
-    }
+  }
 
   h3 {
     color: var(--green);
@@ -51,7 +47,7 @@ export const TitleContainer = styled.div`
     align-self: flex-start;
     width: 170px;
   }
-`
+`;
 
 export const ButtonContainer = styled.div`
   display: flex;
@@ -63,7 +59,7 @@ export const ButtonContainer = styled.div`
   img {
     cursor: pointer;
   }
-`
+`;
 
 export const InfoContainer = styled.div`
   display: flex;
@@ -74,8 +70,7 @@ export const InfoContainer = styled.div`
   span {
     margin-bottom: 10px;
   }
-
-`
+`;
 
 export const EditContainer = styled.form`
   display: flex;
@@ -86,7 +81,6 @@ export const EditContainer = styled.form`
     color: var(--green);
     font-size: 1rem;
     margin-bottom: 10px;
-
   }
 
   input {
@@ -97,7 +91,7 @@ export const EditContainer = styled.form`
     padding: 5px;
   }
 
-  div{
+  div {
     display: flex;
     justify-content: space-around;
 
@@ -105,6 +99,13 @@ export const EditContainer = styled.form`
       color: var(--green);
       border: 1px solid var(--green);
       background-color: var(--white);
+
+      transition: 0.1s;
+
+      :hover {
+        border-color: var(--green-darker);
+        color: var(--green-darker);
+      }
     }
   }
 
@@ -116,7 +117,10 @@ export const EditContainer = styled.form`
     padding: 10px;
     margin-right: 3px;
     border-radius: 7px;
+    transition: 0.1s;
 
+    :hover {
+      background: var(--green-darker);
+    }
   }
-`
-
+`;

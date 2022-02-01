@@ -75,12 +75,17 @@ export const Content = styled.form`
       justify-self: center;
       flex: 1;
     }
-    @media (min-width:556px) and (max-width: 639px) {
+    @media (min-width: 556px) and (max-width: 639px) {
       margin-top: 15px;
     }
 
-    @media (min-width:922px) and (max-width: 1020px) {
+    @media (min-width: 922px) and (max-width: 1020px) {
       margin-top: 15px;
+    }
+    transition: 0.1s;
+
+    :hover {
+      background: var(--green-darker);
     }
   }
 
