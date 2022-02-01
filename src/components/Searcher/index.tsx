@@ -53,7 +53,6 @@ export function Searcher() {
         `https://restcountries.com/v2/name/${selectedCountry}`
       )
       .then((Response) => {
-        // const countryFlag = Response.data.map((flag) => flag.flags.png);
 
         const countryFlag = Response.data.map((flag) => flag.flags.png);
         
