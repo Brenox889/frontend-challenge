@@ -56,32 +56,15 @@ export function Searcher() {
         // const countryFlag = Response.data.map((flag) => flag.flags.png);
 
         const countryFlag = Response.data.map((flag) => flag.flags.png);
-
-        setSelectedFlags(countryFlag);
-
-        console.log(selectedFlags);
-      });
-  }, [selectedCountry]);
-
-  useEffect(() => {
-    if (selectedCountry === "0") {
-      return;
-    }
-
-    axios
-      .get<CountryResponse[]>(
-        `https://restcountries.com/v2/name/${selectedCountry}`
-      )
-      .then((Response) => {
-        // const countryFlag = Response.data.map((flag) => flag.flags.png);
-
+        
         const countryTranslatedName = Response.data.map(
           (translation) => translation.translations.br
         );
 
+        setSelectedFlags(countryFlag);
+
         setSelectedTranslatedName(countryTranslatedName);
 
-        console.log(selectedFlags);
       });
   }, [selectedCountry]);
 
