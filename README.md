@@ -1,59 +1,42 @@
-# Desafio de Frontend
+<h1 align='center'> 🗺️ Lugares</h1>
 
-<img src="./img/logo-clubpetro.png"
-     alt="Clubpetro" width="300">
+<p align='center'>'Lugares que quero conhecer', é uma plataforma onde você pode selecionar suas futuras viagens sonhadas e estipular uma meta para as fazer</p>
 
-- [Descrição](#descrição)
-  - [O Desafio](#o-desafio)
-  - [Requisitos Obrigatórios](#requisitos-obrigatórios)
-  - [Bônus](#bônus)
-- [Submissão e Prazo de Entrega](#submissão-e-prazo-de-entrega)
+---
 
-## Descrição
+<img src="./.github/home.png"
+    align='center' alt="lugares" />
 
-Este desafio tem como objetivo avaliar as habilidades técnicas do canditado a vaga de desenvolvedor frontend no Clubpetro.
+🗒️ Lista de Conteúdos 
+- [Iniciando o Projeto](#Iniciando-o-Projeto)
+- [Tecnologias](#Tecnologias)
 
-#### O Desafio
+#### 💻 Iniciando o Projeto
+Para iniciar o projeto você deve ter o Npm ou Yarn instalado em sua maquina.
+Primeiro clone e acesse o projeto 
+``` 
+git clone https://github.com/Brenox889/frontend-challenge.git
+cd frontend-challenge
+```
+E então instale as dependências rodando ```npm``` ou ```yarn```
+Para iniciar o servidor use ```yarn dev``` que ira executar o seguinte comando 
 
-O desafio consiste em desenvolver um sistema que permita o CRUD de lugares para se conhecer ao redor do mundo. Como na imagem a seguir:
+```
+json-server --watch data/db.json --port 8000"
 
-<img src="./img/challenge.png" alt="Desafio" >
+```
+E então use ```yarn start``` para iniciar o poder visualizar o FrontEnd
 
-O Sistema deverá conter um formulário com 3 campos:
 
-- País: um select contendo a lista de todos os países existentes;
-- Local: um input para que o usuário digite o local que ele deseja conhecer no país selecionado;
-- Meta: um input para que o usuário digite a o mês e o ano que ele pretende visitar o local em questão.
 
-Quando o usuário clicar em "Adicionar", o formulário deverá ser resetado e o local deverá aparecer na listagem dos cards, como mostrado na imagem acima.
+#### Tecnologias
 
-#### Requisitos Obrigatórios
+> O projeto foi construído usando as seguintes tecnologias
+- [ReactJs](https://pt-br.reactjs.org/)
+- [StyledComponents](https://styled-components.com/)
+- [RestCountries API](https://restcountries.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [json-server](https://www.npmjs.com/package/json-server)
+- [react-input-mask](https://www.npmjs.com/package/react-input-mask)
 
-> Requisitos que serão avaliados no desafio.
-
-- O Sistema deverá ser desenvolvido em typescript utilizando a biblioteca [React](https://pt-br.reactjs.org/);
-- O Layout apresentado na imagem acima deverá ser fielmente seguido e pode ser encontrado no [Figma](https://www.figma.com/file/IC0xt3K3X21rLEfLRQ3mpl/Lugares-que-quero-conhecer?node-id=0%3A1);
-- O CRUD poderá ser gerenciado pelo estado no React;
-- Apenas o Local e Meta poderão ser editados e a edição do card deverá ser feita de acordo com a criatividade do canditado, não tendo um layout específico para esta ação;
-- O Sistema deverá ser desenvolvido utilizando [React Hooks](https://pt-br.reactjs.org/docs/hooks-intro.html);
-- O Sistema deverá ser integrado à API [Rest Countries](https://restcountries.com/v2/all) para a listagem dos países. Esta conta com a imagem da bandeira e a tradução do nome do país para Português;
-- A biblioteca [react-input-mask](https://www.npmjs.com/package/react-input-mask) deverá ser utilizada para colocar uma mascara no input de "Meta" no formato mm/aaaa;
-- O Sistema deverá ser responsivo;
-- O candidato deverá adicionar ao projeto uma explicação de como executar a aplicação.
-
-#### Bônus
-
-> Requisitos que não são obrigatórios mas podem te deixar em vantagem com relação aos outros candidatos.
-
-- [Material-UI](https://material-ui.com/pt/);
-- [Styled Components](https://styled-components.com/);
-- Testes automatizados;
-- Utilização da biblioteca [json-server](https://www.npmjs.com/package/json-server) para o CRUD.
-
-### Submissão e Prazo de entrega
-
-- O canditado deverá realizar um fork deste repositório e submeter o código no mesmo;
-- Em caso do deploy realizado, a url deverá ser adicionada no README;
-- O prazo de entrega para este desafio é de 2 (duas) semanas, contando a partir do dia em que o candidato recebeu o email com o link do repositório;
-- Ao finalizar o desafio, o candidato deverá submeter o desafio no questionário disponível na sua área de candidato na plataforma(https://menvievagas.com.br/vagas/fam%C3%8Dliapires/) do Processo Seletivo. É só clicar em RESPONDER no questionário e inserir o link do seu PR.
-Em caso de dúvidas, enviar um e-mail para jobs@clubpetro.com.br
+Made By [Breno Mendes](Github.com/Brenox889) :stars:
