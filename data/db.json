@@ -1,0 +1,64 @@
+{
+  "travels": [
+    {
+      "translation": [
+        "Brasil"
+      ],
+      "country": "Brazil",
+      "flag": [
+        "https://flagcdn.com/w320/br.png"
+      ],
+      "destiny": "Gramado",
+      "goal": "11/06/2022",
+      "id": 1
+    },
+    {
+      "translation": [
+        "México"
+      ],
+      "country": "Mexico",
+      "flag": [
+        "https://flagcdn.com/w320/mx.png"
+      ],
+      "destiny": "La casa Azul",
+      "goal": "13/12/2024",
+      "id": 3
+    },
+    {
+      "translation": [
+        "Canadá"
+      ],
+      "country": "Canada",
+      "flag": [
+        "https://flagcdn.com/w320/ca.png"
+      ],
+      "destiny": "Toronto",
+      "goal": "10/07/2025",
+      "id": 4
+    },
+    {
+      "translation": [
+        "Grécia"
+      ],
+      "country": "Greece",
+      "flag": [
+        "https://flagcdn.com/w320/gr.png"
+      ],
+      "destiny": "Acrópole de Atena",
+      "goal": "25/05/2026",
+      "id": 5
+    },
+    {
+      "translation": [
+        "Brasil"
+      ],
+      "country": "Brazil",
+      "flag": [
+        "https://flagcdn.com/w320/br.png"
+      ],
+      "destiny": "Ubatuba",
+      "goal": "23/04/2022",
+      "id": 6
+    }
+  ]
+}
