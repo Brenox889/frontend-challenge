@@ -18,7 +18,7 @@ Primeiro clone e acesse o projeto
 git clone https://github.com/Brenox889/frontend-challenge.git
 cd frontend-challenge
 ```
-E então instale as dependências rodando ```npm``` ou ```yarn```
+E então instale as dependências rodando ```npm``` ou ```yarn```.
 Para iniciar o servidor use ```yarn dev``` que ira executar o seguinte comando 
 
 ```
