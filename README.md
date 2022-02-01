@@ -1,18 +1,17 @@
 <h1 align='center'> 🗺️ Lugares</h1>
 
 <p align='center'>'Lugares que quero conhecer', é uma plataforma onde você pode selecionar suas futuras viagens sonhadas e estipular uma meta para as fazer</p>
+
 ---
+
 <img src="./.github/home.png"
     align='center' alt="lugares" />
 
-🗒️: Lista de Conteúdos 
+🗒️ Lista de Conteúdos 
 - [Iniciando o Projeto](#Iniciando-o-Projeto)
-  - [O Desafio](#o-desafio)
-  - [Requisitos Obrigatórios](#requisitos-obrigatórios)
-  - [Bônus](#bônus)
-- [Submissão e Prazo de Entrega](#submissão-e-prazo-de-entrega)
+- [Tecnologias](#Tecnologias)
 
-#### 💻: Iniciando o Projeto
+#### 💻 Iniciando o Projeto
 Para iniciar o projeto você deve ter o Npm ou Yarn instalado em sua maquina.
 Primeiro clone e acesse o projeto 
 ``` 
@@ -21,7 +20,11 @@ cd frontend-challenge
 ```
 E então instale as dependências rodando ```npm``` ou ```yarn```
 Para iniciar o servidor use ```yarn dev``` que ira executar o seguinte comando 
-```json-server --watch data/db.json --port 8000"```
+
+```
+json-server --watch data/db.json --port 8000"
+
+```
 E então use ```yarn start``` para iniciar o poder visualizar o FrontEnd
 
 
