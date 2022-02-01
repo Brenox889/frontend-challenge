@@ -79,7 +79,7 @@ export const Content = styled.form`
       margin-top: 15px;
     }
 
-    @media (min-width:922px) and (max-width: 1005px) {
+    @media (min-width:922px) and (max-width: 1020px) {
       margin-top: 15px;
     }
   }
